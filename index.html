@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    
+    <link rel="icon" sizes="192x192" href="icon.png">
+    <link rel="apple-touch-icon" href="icon.png">
+    <link rel="shortcut icon" href="weeicon.png" type="image/x-icon">
+    
+    <link rel="stylesheet" type="text/css" href="./Calculator_files/normalize.css">
+    <link rel="stylesheet" type="text/css" href="./Calculator_files/currencyconverter.css">
+    
+    <title>Travel Rates</title>
+</head>
+<body>
+    <header>Travel Rates</header>
+    
+    <nav id="nav" class="closedmenu">
+        <p id="navmenu"><img src="hamburger.png" alt="Menu" width="32" height="32"></p>
+        <div id="navelem" style="display: none;">
+            <p class="navMenuItemF" id="currencyFrom">From:</p>
+            <p class="navMenuItemR" id="currencyTo">To:</p>
+            <p class="navMenuItemR" id="fee">Bank fee:</p>
+        </div>
+    </nav>
+    
+    <section id="mainsection" class="closedmenu">
+        <div id="calculator">
+            <input type="text" id="display"disabled />
+            <div id="buttons">
+                <button id="7">7</button>
+                <button id="8">8</button>
+                <button id="9">9</button>
+                <button id="4">4</button>
+                <button id="5">5</button>
+                <button id="6">6</button>
+                <button id="1">1</button>
+                <button id="2">2</button>
+                <button id="3">3</button>
+                <button id="c">c</button>
+                <button id="0">0</button>
+                <button id="=">=</button>
+            </div>
+        </div>
+        
+    </section>
+    <footer>Fraser Bayne 2019</footer>
+    <script src="./Calculator_files/CalculatorModel.js"></script>
+    <script src="./Calculator_files/CalculatorView.js"></script>
+    <script src="./Calculator_files/CalculatorController.js"></script>
+    
+</body></html>

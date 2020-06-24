@@ -1,0 +1,125 @@
+/* 
+    This code is distributed under Creative Commons Attribution 4.0 International
+    https://creativecommons.org/licenses/by/4.0/  You are free to Share and Adapt 
+    so long as give appropriate attribution and do not suggest I endorse you or your use.
+    
+    Suggested attribution is:
+    Based on Code by Mark Dunlop from University of Strathclyde, Scotland under 
+    Creative Commons Attribution licence https://creativecommons.org/licenses/by/4.0/
+    Code sourced from https://personal.cis.strath.ac.uk/mark.dunlop/teaching/
+*/
+
+html{
+    font-size: 62.5%;
+    box-sizing: border-box;
+}
+*{
+    font: 2rem ariel,sans-serif;
+    background-color:rgb(40,44,56);
+    text-align: center;
+    margin: 0;
+    padding: 0; 
+    user-select: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: -moz-none;
+    -o-user-select: none;
+    box-sizing: inherit;  
+}
+header {
+    font-size: 2rem;
+    line-height: 2.5rem;
+    font-weight: bold;
+    background-color:black;
+    color:  rgb(216,216,216);
+}
+footer {
+    background-color:black;
+    color:  rgb(216,216,216);
+    font-size: 0.7rem;
+    line-height: 1rem;
+}
+main{
+    margin-left: calc(20% + 10px);
+    min-height: calc(100vh - 3.5rem);
+    height: calc(100vh - 3.5rem);
+    overflow:auto;
+}
+button{
+    background-color: rgb(51,58,77);
+    color: rgb(216,216,216);
+    padding: 0.5rem;
+    cursor: pointer;
+    border: 0.1rem solid rgb(40,44,56);
+    font-size: 10vmin;
+    line-height: 1rem;
+}
+#display{
+    width:100%;
+    font-size: 7vmin;
+    height: 20%;
+    background-color: rgb(40,44,56);
+    color: rgb(216,216,216);
+    text-align: right;
+    padding-right: 4rem;
+    border: 0.1rem solid black;
+    border-top:none;
+}
+#buttons {
+    width:auto;
+    height: 80%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+#calculator{
+    height: calc(100vh - 3.5rem);
+    width:calc(100vw-40px);
+}
+#main{
+    padding: 1vmin;
+    overflow: hidden;
+}
+nav {
+    width:30%;
+    float:left;
+    font-size: 0.8rem;
+    height: calc(100vh - 3.5rem);
+    
+}
+nav.closedmenu{
+    width:40px
+}
+section.closedmenu{
+    margin-left:0px;
+}
+p.navMenuItemF{
+    padding:0.5rem;
+    font-size: 2rem;
+    text-align: center;
+    cursor: pointer;
+    color:rgb(216,216,216);
+    background-color: rgb(51,58,77);
+    border-bottom: 0.1rem solid black;
+    border-top: 0.1rem solid black;
+}
+p.navMenuItemR{
+    padding:0.5rem;
+    font-size: 2rem;
+    text-align: center;
+    cursor: pointer;
+    color:rgb(216,216,216);
+    background-color: rgb(51,58,77);
+    border-bottom: 0.1rem solid black;
+}
+section{
+    margin-left: calc(20% + 10px);
+    font-size: 0.8rem;
+    min-height: calc(100vh - 3.5rem);
+    height: calc(100% - 3.5rem);
+    background: #eeeeee;
+    overflow:auto;
+}
+select{
+    color:rgb(216,216,216);
+    border:none;
+}
